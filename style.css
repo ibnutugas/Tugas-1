@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9;
+    margin: 0;
+    padding: 0;
+}
+.baratas {
+    background-color: #1b5e20;
+    padding: 15px;
+    text-align: center;
+}
+
+.baratas, a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.kotakvisidanmisi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 30px;
+}
+.dalemvisidanmisi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bawah {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1b5e20;
+    color: white;
+    border-radius: 20px;
+}
+
+.bawah p, .bawah a {
+    font-size: 16px;
+}
+
+.baratas, .bawah {
+    justify-content: space-around;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.visi {
+    flex: 1;
+    padding-right: 20px;
+    border-right: 2px solid #000;
+}
+
+.misi{
+    flex: 1;
+    padding-left: 20px;
+}
+
+a:visited{
+    color: blanchedalmond;
+}
+a:hover{
+    color: yellowgreen;
+}
+
+.fotologo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.fotopengalamanpemasangan{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    gap: 20px;
+}
+
